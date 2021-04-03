@@ -1,4 +1,14 @@
 <div class='container px-5 px-sm-0'>
+  <!--以下デバッグ問１８　追記-->
+    <p class="dext-danger">
+      <% if @book.errors.any? %>
+        <%= @book.errors.count %>error.
+        <%= @book.errors.full_messages.each do |message| %>
+          <%= message %>
+        <% end %>
+      <% end %>
+    </p>
+<!--以上デバッグ追記-->
   <div class='row'>
     <div class='col-md-3'>
       <h2>User info</h2>

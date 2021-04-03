@@ -67,3 +67,7 @@ gem "refile-mini_magick"
 
 gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.13'
+
+#以下、問４デバッグ　追記
+gem 'bootstrap','~> 4.5'
+#以上デバッグ
